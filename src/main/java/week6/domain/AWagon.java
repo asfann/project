@@ -18,4 +18,13 @@ public abstract class AWagon implements PassengerWagon {
     public List<Passenger> getPassenger() {
         return passengers;
     }
+
+
+    @Override
+    public boolean isFull() {
+        if (passengers.size()==12){
+            return true;
+        }
+        return false;
+    }
 }

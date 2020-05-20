@@ -24,8 +24,4 @@ public abstract class Lwagon extends AWagon implements WCond, TV{
         System.out.println("Conditioner is off");
     }
 
-    public boolean isFull() {
-        return placeNUm == getPassenger().size();
-    }
-
 }
